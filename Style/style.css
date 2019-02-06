@@ -1,0 +1,1932 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}                                           /* Убрать все стандартные утступы на главной странице*/
+div #start{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2em;
+}                  /* Контейнер с конпкой начать обучение на главной странице если пользователь не авторизовался*/
+div #start1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2em;
+}            /* Контейнер с конпкой начать обучение на главной странице если пользователь  авторизовался*/
+div #start a{
+    border: 1px solid #5BC0DE;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #5BC0DE;
+    color: rgba(255, 255, 255, 0.91);
+}           /* Ссылка с конпкой начать обучение на главной странице если пользователь не авторизовался*/
+div #start1 a{
+    border: 1px solid #5BC0DE;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #5CB85C;
+    color: white;
+
+}               /* Контейнер с конпкой начать обучение на главной странице если пользователь  авторизовался*/
+#PUY{
+    font-size:2em;
+    color: rgba(255,80,15,0.83);
+    font-family: "Showcard Gothic";
+}                  /* Значок PUY на главной странице в верху шапки*/
+#PUY1{
+    font-size:3.05em;
+    color: rgba(255,80,15,0.83);
+    font-family: "Showcard Gothic";
+}                 /* Значок PUY на странице О НАС странице в верху шапки*/
+
+/*.navbar-header{
+  width: 100%;
+  font-size:0.3125em;
+}                              Контейнер шапки главной страниы */
+
+.container-fluid{
+    width: 100%;
+    background: #F8F8F7;
+    border-bottom: 4px solid silver;
+ }                              /* Контейнер шапки главной страниы */
+.Logo {
+    width: 26%;
+    float: left;
+    margin-left: 2%;
+}                                   /* Лайбел и ссылка PUY в шапке на главной странице*/
+
+/*#abautpage{
+  background-color: #2aabd2;
+  width: 100%;
+  height: 100%;
+}                                 Страничка о нас*/
+
+
+/*#puy1{
+     position: relative;
+     text-align: center;
+ }          */
+
+
+#puy1 img{
+   height: 150px;
+   width: 150px;
+}               /*  картинка PuY На странице О НАС в середине странице*/
+#abauttext{
+     text-align: center;
+     font-size: 3em;
+     font-family: "Comic Sans MS";
+     color: rgba(255, 255, 255, 0.75);
+ }                   /* Общий контейнер с текстом на страние о нас*/
+
+#abauttext h1{
+    color: rgba(255,80,15,0.83);
+    font-family: "Showcard Gothic";
+}                      /* Заголовки на  Общем контейнере с текстом на страние о нас*/
+#abauttext2{
+    font-size: 0.7em;
+    margin-top: 15px;
+}                                    /* Текст под картинкой PUY на страние о нас*/
+#abauttext3{
+    color: #DB5F30;
+}                                /* Текст под картинкой PUY Центрайльные слова на страние о нас*/
+@media (max-width: 760px) {
+    .logo {
+        width: 100%;
+        text-align: center;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 1.5em;
+        text-decoration: none;
+    }                        /*  Контейнер с сылкой в виде слов PUY на главнуую страницу, на странице о нас*/
+}                                    /*  Контейнер для мобильных устройств*/
+    @media (max-width: 760px) {
+        #abaut a {
+            width: 100%;
+            color: red;
+            text-decoration: none;
+            font-family: "Segoe UI", Arial, sans-serif;
+            font-size: 1.5em;
+            text-align: center;
+        }                        /*Ссылки на страницу О нас в шапке главной странице*/
+
+}                                /*  Контейнер для мобильных устройств*/
+
+#abaut {
+     width: 50%;
+     float: left;
+     padding: 1%;
+     font-family: "Segoe UI", Arial, sans-serif;
+     font-size: 1.5em;
+     line-height: 135%;
+     text-decoration: none;
+ }                                   /*Контейнер на страницу О нас в шапке главной странице*/
+#abaut a {
+           background-color: #C3C3C2;
+           border-radius: 1em;
+           color: white;
+           padding: 1%;
+           margin-left: 0.5em;
+           margin-right: 0.5em;
+           transition: 5s;
+           text-decoration: none;
+       }                            /*Ссылки на страницу О нас в шапке главной странице*/
+
+@media (max-width: 760px) {
+    #regist a{
+        width: 100%;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size:1.5em ;
+        text-decoration: none;
+        text-align: center;
+}                                   /*Ссылки на страницу Регистрации и Авторизации в шапке главной странице*/
+}                                      /*  Контейнер для мобильных устройств*/
+#regist{
+     width: 20%;
+     float: left;
+     padding: 1%;
+     font-family: "Segoe UI", Arial, sans-serif;
+     font-size:1.5em ;
+     line-height: 135%;
+     text-align: right;
+     text-decoration: none;
+ }                          /*Контейнер на страницу Регистрации и Авторизации в шапке главной странице*/
+ #regist a{
+     color: black;
+ }                              /*Ссылки на страницу Регистрации и Авторизации в шапке главной странице*/
+
+.body{
+    background-color: #2aabd2;
+    height:84%;
+    background-size: cover;
+    width:100%;
+    display: table;
+}                           /* Фон главной страницы */
+
+footer{
+    background: #dad9de;
+    border-top: 4px solid silver;
+    height:8%;
+}                                  /*  Footer */
+#social a img{
+     padding:7px;
+     margin-left: 15px;
+     width: 50px;
+     float: left;
+ }                                   /*Ссылки на социальные сети в футоре страниц*/
+
+footer #prava{
+    width: 50%;
+    float: right;
+    text-align: right;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size:1.3em ;
+    line-height: 135%;
+    padding-right: 1%;
+    text-decoration: none;
+}                                        /* ВСЕ ПРАВА РАЗРЕШЕНЫ в футоре страниц*/
+
+
+#allconteinerTest{
+    width: 100%;
+    height: 100%;
+    background-color: #2aabd2;
+}                                           /* Общий контейнер для тестов */
+
+
+  @media  (max-width: 760px) {
+      #allconteinerTest {
+          width: 100%;
+          height: 350%;
+          background-color: #2aabd2;
+      }                                                       /* Общий контейнер для тестов */
+  }                                                  /* Контрейнер для мобильных устройств*/
+
+#zaglav h1{
+    font-size: 6.5em;
+    font-family: Impact;
+    text-align: center;
+}                                           /* Оглавление главной страницы  ENGLISH PUY*/
+
+/*  текст  главной страницы */
+
+#right-text{
+    text-align: center;
+    font-size: 2.7em;
+    width:47.291%;
+    font-family: " Сomic Sans MS" ;
+    float: left;
+}                                                           /**/
+#text-glavny{
+    text-align: center;
+    font-size: 3.3em;
+    width: 50%;
+    margin-left: 25%;
+   color: rgba(255, 255, 255, 0.71);
+    font-family: "Comic Sans MS" ;
+}
+#text2{
+    color:#00822C;
+    font-size:1.2em;
+}                                                       /*  нижний  текст   главной страницы */
+
+.testic{
+    float: left;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 5%;
+
+
+
+}                                                    /*  Контейнер с текстом и изображением Для регистрации */
+
+#Reg-test1{
+    font-size: 2em;
+
+
+}                                                                     /*  текст Для регистрации */
+.form-group{
+    text-align: center;
+    width:36.458%;
+}
+
+
+.name-test1231 {
+    font-size: 1.2em;
+    font-family: "Comic Sans MS" ;
+    color: #DB5F30;
+
+
+
+}                                                             /* Ссылка , перехода на сам тест */
+
+.test-text{
+
+    text-align: center;
+    font-size: 1.875em;
+    color: black;
+
+
+}                                                                /* контейнер перехода на тест */
+.test-text a{
+    text-align: center;
+    font-size: 1em;
+}                                                                /* Ссылка в тест на главной странице*/
+
+
+
+.form-group{
+    text-align: center;
+    width:45%;
+
+}
+#puyreg{
+    width: 300px;
+    position: relative;
+    left: 55%;
+    bottom: 250px;
+}                                                        /**/
+#welcome{
+    text-align: center;
+    font-size: 5em;
+    color: rgba(255, 255, 255, 0.81);
+    font-family: "Comic Sans MS";
+
+}                                                                /* Форма регистрации */
+.form-group1{
+    text-align: center;
+    width:350px;
+    position: relative;
+    top:160px;
+    right: 250px;
+
+}                                                                         /* Форма авторизации */
+
+
+
+
+#logincon{
+    width: 100%;
+    height: 100%;
+    background:#2AABD2;
+
+}                                                                /**/
+#label{
+    font-size: 2em;
+    font-family: "Comic Sans MS";
+}                                                                    /**/
+
+                            /* ТЕСТ */
+
+.test-level1 h3{
+    position:relative;
+    left:2em;
+
+}                                                            /**/
+
+.test-level1 {
+margin-left: 2em;
+    float: left;
+
+
+}                                                        /**/
+
+.test-level2{
+    margin-left: 2em;
+    float:left;
+    position: relative;
+    bottom: 4.4em;
+
+}                                                    /**/
+.test-level3{
+
+    margin-left: 2em;
+    float:left;
+    position: relative;
+    bottom: 5.9em;
+
+
+}                                                /**/
+.test-level4{
+
+    margin-left: 2em;
+    float:left;
+    position: relative;
+    bottom: 7.3em;
+
+
+}                                                /**/
+.test-level5{
+
+    margin-left: 2em;
+    float:left;
+    position: relative;
+    bottom: 8.5em;
+
+
+}                                                        /**/
+#button1{
+    color: rgba(255, 255, 255, 0.81);
+}                                                        /**/
+#button{
+
+    text-align: center;
+
+}                                                                /**/
+
+#button2{
+width:15%;
+    height:10%;
+    border-radius:50%;
+    text-align: center;
+}                                                            /**/
+
+
+
+table td{
+
+border: 3px solid black;
+    padding:1em;
+    width:7em;
+}                                                    /**/
+table{
+
+    text-align: center;
+
+    position: relative;
+
+    margin-bottom: -8em;
+}                                                            /**/
+
+#testpro{
+    width: 60%;
+    margin: 0 auto;
+}                                                    /**/
+.namelevel{
+     text-align: center;
+    font-size: 1.5em;
+top: 6.8em;
+    position: relative;
+
+}                                            /**/
+
+table th{
+    text-align: center;
+}                                        /**/
+
+table td{
+    text-align: center;
+}                                            /**/
+#kra{
+    position: relative;
+    text-align: center;
+}                                                /**/
+
+#bodyTestResult{
+    background-color: #c9db70;
+    width: 100%;
+    height: 105%;
+}                                            /**/
+
+#tdresult{
+    font-family:Ebrima;
+    color: white;
+}                                                        /**/
+.butResult{
+    text-align: right;
+}                                                            /**/
+
+                                                        /*  Старница для выбора уровня  */
+#bodyWork{
+    background-color: #2aabd2;
+    height: 100%;
+    background-size: cover;
+    width:100%;
+    display: table;
+
+
+}                                              /*  Главный контейнер для  старницы для выбора уровня  */
+.welkom{
+      text-align: center;
+      font-size: 3.75em;
+  }                                                      /*  Надпись добро пожаловать   */
+.welkom2{
+    text-align: center;
+    font-size: 1.5em;
+
+
+}                                                      /*  Надпись Выбирайте свой уровень    */
+#allBloks{
+    margin-top: 35px;
+    font-size: 30px;
+    text-align: center;
+
+}                                                               /*  Блоки с картинками и названием    */
+.blo1{
+    margin-left: 50px;
+}                                               /*  Блоки с картинками и названием    */
+.WorkText2{
+    width:26%;
+    font-size: 1.5em;
+    margin-left: 10%;
+}                                                   /*  Напоминание про тест  */
+#pic6{
+    height: 470px;
+}                                                       /*  Последняя картинка  */
+.testWork{
+    margin-left:20%;
+}                                                 /*  Кнопка на тест  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+#leveL1{
+    width:100%;
+    height: 100%;
+    background-color: #5BC0DE;
+display: table;
+
+}                                                    /*  Общий контейнер для выбора урока */
+.level1_2{
+margin: 0 auto;
+    width: 60%;
+    background-color:#D6DE57 ;
+    height: 100%;
+ }                                                          /*  Центральный контейнер для выбора урока */
+.etap1{
+     text-align:center;
+     font-size: 1.875em;
+     font-family: Impact;
+
+ }                                              /*  Выбор Этапа*/
+.name-etap1{
+    font-size: 1.875em;
+  text-align: center;
+    border-radius:50% ;
+
+
+}                                                   /*  Название Класса уроков*/
+#etap1-zadanie{
+    font-size: 1.2em;
+text-align: center;
+
+}                                            /*  Контейнер для ссылок на уроки  */
+#etap1-zadanie a {
+    border: 1px solid black;
+    border-radius:50% ;
+    margin-left: 2%;
+    text-decoration: none;
+    padding: 2%;
+
+}                           /*  Ссылки на уроки */
+.hrlevel1{
+    color: black;
+    border: 2px solid black;
+}                       /*  Разделительная полосса в конце каждого этапа*/
+
+
+
+
+
+
+#lesson1Conteiner {
+    background-color: #2aabd2;
+    width: 100%;
+    height: 100%;
+
+
+}                                           /*  Общий контейнер для первого урока*/
+#lesson1Conteiner1{
+    width: 50%;
+    height: 40%;
+    border: 1px solid black;
+overflow: hidden;
+    background-color: rgba(126, 255, 243, 0.29);
+    margin: 0 auto;
+
+}                                                                 /*   контейнер где отоброжается слово */
+
+
+#testtest{
+    width: 2000%;
+    position: relative;
+    left: 0;
+    transition: all ease 1s ;
+
+}                                                        /* Содержание контейнера */
+#lesson1Conteiner2 {
+    float: left;
+   width: 5%;
+}                                                       /*  Содержание контейнера */
+
+.lesson1Word1{
+    text-align: center;
+    font-size:1.5em;
+}                                                            /*  Слово в контейнере */
+.lesson1img img{
+    width: 20%;
+    height: 50%;
+    margin-top: 2%;
+    margin-left: 40%;
+}                                                           /*  Картинка в контейнере */
+.lesson1Audio{
+   text-align: center;
+    margin-top: 5%;
+
+
+}                                                            /*  Аудио в контейнере */
+
+
+
+.Lessonbutton{
+margin-left:42%;
+
+}                                                            /*  Кнопка в право  */
+.Lessonbutton2{
+    margin-left:42%;
+    float: left;
+
+}                                                            /*  Кнопка в лево  */
+
+.Lessonbutton3 a {
+    margin-left:45%;
+    margin-top: 1%;
+}                                                            /*  Кнопка для начала обучения  */
+
+
+
+#etap1-zadanie a{
+    background-color: orange;
+        color: #afd9ee;
+}                                                        /* */
+#etap1-zadanie  #prom{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom2{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom3{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom4{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom5{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom6{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom7{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom8{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom9{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom10{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom11{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom12{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom13{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom14{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom15{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom16{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom17{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom18{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom19{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom20{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom21{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom22{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom23{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom24{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom25{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom26{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom27{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom28{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom29{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom30{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom31{
+     pointer-events: none;
+     cursor: default;
+     background-color: silver;
+     color: #888888;
+
+ }
+
+#etap1-zadanie  #prom33{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom34{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom35{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom36{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom37{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom38{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom39{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom40{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}#etap1-zadanie  #prom41{
+     pointer-events: none;
+     cursor: default;
+     background-color: silver;
+     color: #888888;
+
+ }
+#etap1-zadanie  #prom42{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom43{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom44{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom45{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom46{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom47{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom48{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom49{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom50{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom51{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom52{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom53{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom54{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom55{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom56{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom57{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom58{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom59{
+      pointer-events: none;
+      cursor: default;
+      background-color: silver;
+      color: #888888;
+
+  }
+#etap1-zadanie  #prom60{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom61{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom62{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom63{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom64{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom65{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom66{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom67{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom68{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom69{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom70{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}#etap1-zadanie  #prom72{
+     pointer-events: none;
+     cursor: default;
+     background-color: silver;
+     color: #888888;
+
+ }#etap1-zadanie  #prom73{
+      pointer-events: none;
+      cursor: default;
+      background-color: silver;
+      color: #888888;
+
+  }#etap1-zadanie  #prom74{
+       pointer-events: none;
+       cursor: default;
+       background-color: silver;
+       color: #888888;
+
+   }#etap1-zadanie  #prom75{
+        pointer-events: none;
+        cursor: default;
+        background-color: silver;
+        color: #888888;
+
+    }#etap1-zadanie  #prom76{
+         pointer-events: none;
+         cursor: default;
+         background-color: silver;
+         color: #888888;
+
+     }
+
+#etap1-zadanie  #prom77{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom78{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom79{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom80{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom81{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom82{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom83{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom84{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom85{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom86{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom87{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom88{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom89{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom90{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom91{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom92{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom93{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom94{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom95{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom96{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom97{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom98{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom99{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom100{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom101{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom102{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom103{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom104{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom105{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom106{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom107{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom108{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom109{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom110{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom112{
+     pointer-events: none;
+     cursor: default;
+     background-color: silver;
+     color: #888888;
+
+ }#etap1-zadanie  #prom113{
+      pointer-events: none;
+      cursor: default;
+      background-color: silver;
+      color: #888888;
+
+  }#etap1-zadanie  #prom114{
+       pointer-events: none;
+       cursor: default;
+       background-color: silver;
+       color: #888888;
+
+   }#etap1-zadanie  #prom115{
+        pointer-events: none;
+        cursor: default;
+        background-color: silver;
+        color: #888888;
+
+    }#etap1-zadanie  #prom116{
+         pointer-events: none;
+         cursor: default;
+         background-color: silver;
+         color: #888888;
+
+     }#etap1-zadanie  #prom117{
+          pointer-events: none;
+          cursor: default;
+          background-color: silver;
+          color: #888888;
+
+      }#etap1-zadanie  #prom118{
+           pointer-events: none;
+           cursor: default;
+           background-color: silver;
+           color: #888888;
+
+       }#etap1-zadanie  #prom119{
+            pointer-events: none;
+            cursor: default;
+            background-color: silver;
+            color: #888888;
+
+        }#etap1-zadanie  #prom120{
+             pointer-events: none;
+             cursor: default;
+             background-color: silver;
+             color: #888888;
+
+         }#etap1-zadanie  #prom121{
+              pointer-events: none;
+              cursor: default;
+              background-color: silver;
+              color: #888888;
+
+          }#etap1-zadanie  #prom122{
+               pointer-events: none;
+               cursor: default;
+               background-color: silver;
+               color: #888888;
+
+           }#etap1-zadanie  #prom123{
+                pointer-events: none;
+                cursor: default;
+                background-color: silver;
+                color: #888888;
+
+            }#etap1-zadanie  #prom124{
+                 pointer-events: none;
+                 cursor: default;
+                 background-color: silver;
+                 color: #888888;
+
+             }#etap1-zadanie  #prom125{
+                  pointer-events: none;
+                  cursor: default;
+                  background-color: silver;
+                  color: #888888;
+
+              }
+
+#etap1-zadanie  #prom126{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom127{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom128{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom129{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}#etap1-zadanie  #prom130{
+     pointer-events: none;
+     cursor: default;
+     background-color: silver;
+     color: #888888;
+
+ }#etap1-zadanie  #prom131{
+      pointer-events: none;
+      cursor: default;
+      background-color: silver;
+      color: #888888;
+
+  }
+#etap1-zadanie  #prom132{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom133{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom134{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom135{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom136{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom137{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}#etap1-zadanie  #prom138{
+     pointer-events: none;
+     cursor: default;
+     background-color: silver;
+     color: #888888;
+
+ }#etap1-zadanie  #prom139{
+      pointer-events: none;
+      cursor: default;
+      background-color: silver;
+      color: #888888;
+
+  }
+#etap1-zadanie  #prom140{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom141{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom142{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom143{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom144{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom145{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom146{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}#etap1-zadanie  #prom147{
+     pointer-events: none;
+     cursor: default;
+     background-color: silver;
+     color: #888888;
+
+ }#etap1-zadanie  #prom148{
+      pointer-events: none;
+      cursor: default;
+      background-color: silver;
+      color: #888888;
+
+  }#etap1-zadanie  #prom149{
+       pointer-events: none;
+       cursor: default;
+       background-color: silver;
+       color: #888888;
+
+   }#etap1-zadanie  #prom150{
+        pointer-events: none;
+        cursor: default;
+        background-color: silver;
+        color: #888888;
+
+    }
+
+
+#etap1-zadanie  #prom152{
+     pointer-events: none;
+     cursor: default;
+     background-color: silver;
+     color: #888888;
+
+ }
+
+#etap1-zadanie  #prom153{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom154{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom155{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom156{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom157{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom158{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom159{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom160{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom161{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom162{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom163{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom164{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom165{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom166{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom167{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom168{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom169{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom170{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom171{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom172{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom173{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom174{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom175{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom176{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom177{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom178{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom179{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom180{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom181{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom182{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom183{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom184{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom185{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom186{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom187{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom188{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+
+#etap1-zadanie  #prom189{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom190{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom191{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom192{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}
+#etap1-zadanie  #prom193{
+    pointer-events: none;
+    cursor: default;
+    background-color: silver;
+    color: #888888;
+
+}                                                       /* */
